@@ -2,7 +2,7 @@ from settings import TG_TOKEN, TG_API_URL
 import telebot
 from telebot import types
 import sqlite3
-bot = telebot.TeleBot('5058905213:AAHncVjLNsMOuKiTgSzNYZ5FxTgIDXWEnyc')
+bot = telebot.TeleBot("Ur bot Token")
 Privet = ['Hello', 'Hi', 'qq', 'ку', 'Привет', 'привет', 'прив', 'хай', 'хэллоу', "Ку", "Прив"]
 
 @bot.message_handler(func=lambda message: True)
