@@ -2,8 +2,8 @@ import telebot
 import sqlite3
 
 #bot
-bot = telebot.TeleBot("5048860066:AAGrGUWyVGTiJS1lPbtue3ari8bVzKfaPeo") #1 bot osnova
-#bot = telebot.TeleBot("5058905213:AAHncVjLNsMOuKiTgSzNYZ5FxTgIDXWEnyc") #2 bot Test
+bot = telebot.TeleBot("Ur bot Token") #1 bot osnova
+#bot = telebot.TeleBot("Ur bot Token") #2 bot Test
 
 @bot.message_handler(commands=['start'])
 def start(message):
