@@ -4,7 +4,7 @@ import sqlite3
 name = ''
 surname = ''
 age = 0
-bot = telebot.TeleBot("5048860066:AAGrGUWyVGTiJS1lPbtue3ari8bVzKfaPeo")
+bot = telebot.TeleBot("Ur bot Token")
 Privet = ['Hello', 'Hi', 'qq', 'ку', 'Привет', 'привет', 'прив', 'хай', 'хэллоу']
 
 
